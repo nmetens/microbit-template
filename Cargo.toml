@@ -5,11 +5,12 @@ edition = "2021"
 
 [dependencies]
 cortex-m-rt = "0.7"
-microbit-v2 = "0.15"
+microbit = { package = "microbit-v2", version = "0.15" }
 panic-rtt-target = "0.2"
 rtt-target = "0.6"
 nanorand = { version = "0.7.0", default-features = false, features = ["wyrand"] }
 embedded-hal = "1.0.0"
+lsm303agr = "1.1.0"
 
 [dependencies.cortex-m]
 version = "0.7"
